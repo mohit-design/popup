@@ -1,0 +1,61 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Roboto-Light"; src: url("../fonts/Roboto-Light.ttf"); }
+@font-face { font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face { font-family: "Roboto-Medium"; src: url("../fonts/Roboto-Medium.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+h3,
+p { margin: 0; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body.active { overflow: hidden; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- BG Blur CSS Starts -------*/
+
+.bg-blur { background-color: #000000c7; bottom: 0; display: none; height: 100%; left: 0; position: fixed; right: 0; top: 0; width: 100%; z-index: 10; }
+.bg-blur.active { display: block; }
+
+/*------- BG Blur CSS Ends -------*/
+
+/*------- Button Section Starts -------*/
+
+.bg-buttons { padding: 30px 15px; }
+.btn-popup { cursor: pointer; height: 55px; text-align: center; background-size: 300% 100%; border: 0; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; display: block; color: #ffffff; font: 1.8rem/1.5 "Roboto-Light"; letter-spacing: 1px; margin: 0 auto; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 150px; }
+.btn-popup:hover { background-position: 100% 0; }
+.btn-popup:focus { outline: none; }
+.btn-popup-1 { background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.3); }
+.btn-popup-2 { background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516); box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.3); }
+.btn-popup-3 { background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645); box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.3); }
+
+/*------- Button Section Ends -------*/
+
+/*------- Popup Section Starts -------*/
+
+.box-popup { bottom: 0; height: 100%; left: 0; position: fixed; right: 0; top: 0; width: 100%; z-index: 10; }
+.box-popup-1,
+.box-popup-2,
+.box-popup-3 { display: none; }
+.bg-popup { background-color: #fff; left: 50%; padding: 30px; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.box-popup-1.active,
+.box-popup-2.active,
+.box-popup-3.active { display: block; }
+.heading-desc > h3 { color: #000; font: 2.4rem/1.42857143 "Roboto-Medium"; margin-bottom: 15px; }
+.heading-desc > p { color: #333; font: 1.8rem/1.7 "Roboto-Light"; }
+.bg-popup-close { position: absolute; right: -15px; top: -15px; }
+.bg-popup-close > a { background-color: #ffffff; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; display: block; height: 40px; text-align: center; width: 40px; }
+.bg-popup-close > a > i { color: #000000; font-size: 1.8rem; line-height: 40px; }
+
+/*------- Popup Section Ends -------*/

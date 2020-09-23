@@ -1,0 +1,36 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Button Section Starts -------*/
+
+.bg-buttons { padding: 15px 15px 0; }
+.btn-popup { margin-bottom: 15px; }
+
+/*------- Button Section Ends -------*/
+
+/*------- Popup Section Starts -------*/
+
+.bg-popup { width: 85%; }
+
+/*------- Popup Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Popup Section Starts -------*/
+
+.bg-popup { width: 85%; }
+
+/*------- Popup Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Popup Section Starts -------*/
+
+.bg-popup { width: 85%; }
+
+/*------- Popup Section Ends -------*/
+
+}
