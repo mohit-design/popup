@@ -48,7 +48,7 @@ body.active { overflow: hidden; }
 .box-popup-1,
 .box-popup-2,
 .box-popup-3 { display: none; }
-.bg-popup { background-color: #fff; left: 50%; padding: 30px; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.bg-popup { background-color: #fff; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; left: 50%; padding: 30px; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 .box-popup-1.active,
 .box-popup-2.active,
 .box-popup-3.active { display: block; }
